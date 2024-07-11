@@ -36,7 +36,7 @@ body {
     margin: 15px;
     padding: 15px 50px;
 }
-/*END HEADER STYLE*/
+/*END OF HEADER STYLE*/
 
 /*MAIN STYLE*/
     /*COURSE-CONTENT STYLE*/
@@ -83,12 +83,13 @@ h2 {
 .module span {
     color: #33A8DB;
 }
-    /*COURSE-CONTENT STYLE*/
+    /*END OF COURSE-CONTENT STYLE*/
 
     /*TRANSFORM WORLD STYLE*/
 
 section {
     margin-top: 0;
+    background-color: #000;
 }
 
 #transform-world {
@@ -104,14 +105,49 @@ section {
     text-align: left;
     text-transform: lowercase;
     font-size: 38px;
-    color:#fff;
+    color:#ffffff;
     padding-top: 120px;
     padding-bottom: 50px;
     margin-left: 10%;
     margin-right: 72.5%;
     margin-top: 0;
-
 }
-    /* ENDTRANSFORM WORLD STYLE*/
+    /* END OF TRANSFORM WORLD STYLE*/
     
+    /* PROFESSIONAL-CHALLENGES STYLE*/
+
+h2 {
+    margin: auto 20%;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+#professional-challenges p{
+    color: #fff;
+    font-size: 16px;
+    margin: 3em 20%;
+   padding-bottom: 5em;
+   
+}
+    /* END OF PROFESSIONAL CHALLENGES STYLE*/
 /*END MAIN STYLE*/
+
+/*FOOTER STYLE*/
+footer {
+    background: linear-gradient(rgb(0,0,0),#091B23);
+    margin-top: -50px;
+    padding: 20px;
+}
+
+footer img{
+    padding-top: 20px;
+}
+
+footer p{
+    color: #fff;
+    font-size: 16px;
+    padding: auto 20px;
+}
+
+
+/*END OF FOOTER STYLE*/
